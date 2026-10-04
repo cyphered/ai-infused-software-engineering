@@ -97,6 +97,20 @@ streamlit run app.py
 
 - LLM-based planning
 - Retrieval-augmented repository understanding
+
+## Screenshots
+
+### 1. Agent Planning
+
+The system converts a software-engineering goal into a sequence of tools to execute, demonstrating goal-oriented planning and agentic tool orchestration.
+
+![Agent Planning](agent-plan.png)
+
+### 2. Agent Execution Trace
+
+The system records each tool invocation and its structured output, providing an observable and auditable execution trace.
+
+![Agent Execution Trace](execution-trace.png)
 - Sandboxed execution
 - Automated test execution and repair
 - Multi-agent software review
